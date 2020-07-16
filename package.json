@@ -1,0 +1,39 @@
+{
+  "name": "reducer-time-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhrubesh/reducer-time-travel.git"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "Dhrubesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhrubesh/reducer-time-travel/issues"
+  },
+  "homepage": "https://github.com/dhrubesh/reducer-time-travel#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "rollup": "^2.21.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "standard": "^14.3.4",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
+  }
+}
