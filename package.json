@@ -8,6 +8,7 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest --coverage",
+    "test-watch": "jest -o --watch",
     "lint": "standard",
     "fix-lint": "yarn lint --fix"
   },
@@ -33,8 +34,10 @@
   },
   "homepage": "https://github.com/dhrubesh/reducer-time-travel#readme",
   "devDependencies": {
+    "@testing-library/react-hooks": "^3.3.0",
     "@types/jest": "^26.0.4",
     "jest": "^26.1.0",
+    "react-test-renderer": "^16.13.1",
     "rollup": "^2.21.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
@@ -43,5 +46,8 @@
     "standard": "^14.3.4",
     "ts-jest": "^26.1.2",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
   }
 }
